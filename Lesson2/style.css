@@ -1,0 +1,62 @@
+ul {
+    /* Ký tự danh sách */
+    list-style:square;
+}
+
+ol {
+    /* số la mã */
+    list-style: upper-roman;
+    /* Chữ viết hoa */
+    list-style: upper-latin;
+    /* Chữ viết thường */
+    list-style: lower-latin;
+    /* Số */
+    list-style: decimal;
+}
+
+li {
+    /* Cỡ chữ */
+    font-size: 15px;
+    /* font chữ */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Màu chữ */
+    color: rgb(15, 5, 68);
+    /* In đậm */
+    font-weight: bold;
+    font-weight: 600;
+    /* Kiểu chữ: nghiêng */
+    font-style: italic;
+    text-decoration: underline;
+    /* Chiều cao dòng */
+    line-height: 25px;
+}
+
+a {
+    /* Bỏ gạch chân */
+    text-decoration: none;
+}
+
+img {
+    /* Kích thước */
+    width: 300px;
+    /* Viền: kích thước - kiểu - màu */
+    border: 10px solid black;
+        /* kích thước viền */
+    border-width: 10px;
+        /* Kiểu viền */
+    border-style: dashed;
+        /* Màu viền */
+    border-color: rgb(49, 6, 6);
+    /* bo góc */
+    border-radius: 150px;
+}
+
+span {
+    /* Màu nền */
+    background-color: salmon;
+    /* Chỉnh kích thước */
+    width: 100px;
+    height: 100px;
+    /* Thuộc tính display */
+    display: inline-block;
+}
