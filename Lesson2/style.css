@@ -1,6 +1,6 @@
 ul {
     /* Ký tự danh sách */
-    list-style:square;
+    list-style: square;
 }
 
 ol {
@@ -18,7 +18,7 @@ li {
     /* Cỡ chữ */
     font-size: 15px;
     /* font chữ */
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* Màu chữ */
     color: rgb(15, 5, 68);
     /* In đậm */
@@ -41,11 +41,11 @@ img {
     width: 300px;
     /* Viền: kích thước - kiểu - màu */
     border: 10px solid black;
-        /* kích thước viền */
+    /* kích thước viền */
     border-width: 10px;
-        /* Kiểu viền */
+    /* Kiểu viền */
     border-style: dashed;
-        /* Màu viền */
+    /* Màu viền */
     border-color: rgb(49, 6, 6);
     /* bo góc */
     border-radius: 150px;
@@ -59,4 +59,40 @@ span {
     height: 100px;
     /* Thuộc tính display */
     display: inline-block;
+}
+
+/* ============== THỰC HÀNH ============ */
+div {
+    /* Viền: kích thước - kiểu - màu */
+    border: 5px solid black;
+    /* Chiều ngang */
+    width: 600px;
+    /* căn giữa */
+    text-align: center;
+    /* Màu nền */
+    background-color: aliceblue;
+    /* font chữ */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    /* Màu chữ */
+    color: rgb(27, 11, 112);
+    /* Cỡ chữ */
+    font-size: 20px;
+}
+
+ul {
+    text-align: left;
+    padding-left: 140px;
+}
+
+a {
+    color: rgb(27, 11, 112);
+}
+
+p {
+    text-align: left;
+    padding-left: 130px;
+    font-weight: 550;
 }
