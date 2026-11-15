@@ -1,0 +1,34 @@
+/* Tag selector: css theo tên thẻ */
+p {
+    /* Độ đậm nhạt */
+    font-weight: bold;
+    /* Cỡ chữ */
+    font-size: 18px;
+}
+
+/* Class selector */
+.jsb48 {
+    /* Màu chữ */
+    color: blue;
+}
+
+.jsb49{
+    font-style: italic;
+}
+
+/* ID selector */
+#minhkhai {
+    /* Màu chữ */
+    color: red;
+}
+
+/* CSS cho con & hậu duệ: tất cả thẻ p trong d1 */
+.d1 p {
+    /* Màu nền */
+    background-color: salmon;
+}
+
+/* CSS theo con */
+.d1 > p {
+    font-size: 22px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3</title>
+    <!-- Liên kết css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Internal CSS -->
+    <style>
+        #internal {
+            color: pink
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Selectors</h2>
+
+    <!-- Tag selector: css theo tên thẻ -->
+    <p>Đây là thẻ p1</p>
+    <p>Đây là thẻ p2</p>
+    
+    <!-- Class selector: [tên thẻ].[tên class] -->
+    <p class="jsb48 jsb49">Đây là thẻ p có class</p>
+    <p class="jsb48">Đây là thẻ p có class</p>
+
+    <!-- ID selector: [tên thẻ]#[tên id] -->
+    <p id="minhkhai">Đây là thẻ p có id</p>
+
+    <!-- CSS theo con, hậu duệ -->
+    <div class="d1">
+        <p>Đây là phần tử trực tiếp (con) của d1</p>
+        <div>
+            <p>Đây là phần tử hậu duệ (cháu) của d1</p>
+        </div>
+    </div>
+
+    <!-- Cách cách viết CSS -->
+    <h2>3 cách viết CSS</h2>
+    <p style="color: purple">Inline CSS: viết trực tiếp trong thẻ HTML</p>
+    <p id="internal">Internal CSS: viết trong thẻ head của HTML</p>
+    <p class="external">External CSS: viết trong file .css riêng (đang dùng)</p>
+
+    <!--  -->
+
+</body>
+</html>
