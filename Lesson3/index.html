@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,13 +14,14 @@
         }
     </style>
 </head>
+
 <body>
     <h2>CSS Selectors</h2>
 
     <!-- Tag selector: css theo tên thẻ -->
     <p>Đây là thẻ p1</p>
     <p>Đây là thẻ p2</p>
-    
+
     <!-- Class selector: [tên thẻ].[tên class] -->
     <p class="jsb48 jsb49">Đây là thẻ p có class</p>
     <p class="jsb48">Đây là thẻ p có class</p>
@@ -34,14 +36,32 @@
             <p>Đây là phần tử hậu duệ (cháu) của d1</p>
         </div>
     </div>
+    <hr>
 
     <!-- Cách cách viết CSS -->
     <h2>3 cách viết CSS</h2>
     <p style="color: purple">Inline CSS: viết trực tiếp trong thẻ HTML</p>
     <p id="internal">Internal CSS: viết trong thẻ head của HTML</p>
     <p class="external">External CSS: viết trong file .css riêng (đang dùng)</p>
+    <hr>
 
-    <!--  -->
+    <!-- Thứ tự ưu tiên của CSS -->
+    <h2>Thứ tự ưu tiên CSS</h2>
+    <p>Theo selectors: ID > Class > Tag</p>
+    <p>Theo cách viết: Inline > Internal > External</p>
 
+    <p id="priority" style="color: blue;">Test piority</p>
+    <hr>
+
+    <!-- Box model -->
+    <h2>Box Model</h2>
+    <img src="https://funix.edu.vn/wp-content/uploads/2022/02/boxmodel.png" alt="">
+
+    <div class="box" id="box1">BOX 1</div>
+    <div class="box" id="box2">BOX 2</div>
+
+    <h2>Box Sizing</h2>
+    <img src="https://media2.dev.to/dynamic/image/width=800,height=,fit=scale-down,gravity=auto,format=auto/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lmi6ase1gdezqbtnlb5j.jpg" alt="">
 </body>
+
 </html>

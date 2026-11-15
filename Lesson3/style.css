@@ -32,3 +32,40 @@ p {
 .d1 > p {
     font-size: 22px;
 }
+
+/* Test priority */
+#priority {
+    color: orange;
+}
+
+img {
+    width: 500px;
+}
+
+/* Box model */
+.box {
+    /* Kích thước */
+    width: 200px;
+    height: 200px;
+
+    /* Viền */
+    border: 5px solid black;
+
+    /* Padding: khoảng cách từ content đến border */
+    padding: 20px;
+
+    /* Margin: khoảng cách từ border đến thẻ khác */
+    margin: 20px;
+}
+
+#box1 {
+    background-color: lightcoral;
+    /* Kích thước = content + padding + border */
+    box-sizing: border-box;
+}
+
+#box2 {
+    background-color: lightblue;
+    /* Kích thước = content */
+    box-sizing: content-box;
+}
