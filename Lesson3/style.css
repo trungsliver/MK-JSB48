@@ -68,4 +68,10 @@ img {
     background-color: lightblue;
     /* Kích thước = content */
     box-sizing: content-box;
+    /* custom */
+    padding-top: 50px;
+    /* padding: top-bottom left-right */
+    padding: 20px 50px;
+    /* padding: top right bottom left */
+    padding: 20px 50px 30px 40px;
 }
