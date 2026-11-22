@@ -39,3 +39,70 @@
     top: 10px;
     right: 30px;
 }
+
+img{
+    height: 150px;
+}
+
+/* Flexbox */
+.container {
+    display: flex;
+    background-color: lightpink;
+    /* Hướng sắp xếp các phần tử */
+    flex-direction: row;
+    /* Vị trí theo chiều ngang container */
+    justify-content: space-around;
+    /* Vị trí theo chiều dọc container */
+    align-items: center;
+    /* Xuống dòng khi hết chỗ */
+    flex-wrap: wrap;
+}
+
+/* Responsive */
+#test {
+    background-color: orangered;
+    width: 200px;
+    height: 100px
+}
+
+/* CSS cho màn hình nhỏ hơn 768px */
+@media (max-width: 768px){
+    #test {
+        background-color: aqua;
+    }
+}
+
+/* Bài tập position */
+.menu {
+    position: absolute;
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+.noidung{
+    background-color: lightgray;
+    /* padding: top&bottom left&right */
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+.quaylai {
+    position: relative;
+    background-color: blue;
+    color: white;
+    padding: 15px 10px;
+    /* CHo nút sang bên phải */
+    float: right
+}
+
+.thongbao {
+    position: fixed;
+    background-color: red;
+    color: white;
+    /* Vị trí trên màn hình */
+    top: 50px;
+    right: 10px;
+}
