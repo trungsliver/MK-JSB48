@@ -1,0 +1,41 @@
+.position1 {
+    position: relative;
+    background-color: lightblue;
+}
+
+.position1 p {
+    margin: 0;
+}
+
+.child {
+    position: relative;
+    background-color: salmon;
+    /* Chiều ngang vừa với content (nội dung chữ) */
+    width: fit-content;
+    height: 30px;
+    /* Chỉnh vị trí */
+    top: 10px;
+    left: 30px;
+}
+
+.child2 {
+    position: absolute;
+    background-color: lightgreen;
+    /* Chiều ngang vừa với content (nội dung chữ) */
+    width: fit-content;
+    height: 30px;
+    /* Chỉnh vị trí */
+    top: 10px;
+    left: 120px;
+}
+
+.child3 {
+    position: fixed;
+    background-color: red;
+    /* Chiều ngang vừa với content (nội dung chữ) */
+    width: fit-content;
+    height: 30px;
+    /* Chỉnh vị trí */
+    top: 10px;
+    right: 30px;
+}
